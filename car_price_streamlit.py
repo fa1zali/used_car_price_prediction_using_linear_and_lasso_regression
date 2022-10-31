@@ -12,9 +12,7 @@ def car_price_prediction(input_data):
     input_data_arr= np.asarray(input_data)
     
     input_data_reshaped = input_data_arr.reshape(1, -1)
-    
-    # standardize input data
-    
+       
     price = loaded_model.predict(input_data_reshaped)
     
     return price[0]
