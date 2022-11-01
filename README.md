@@ -27,6 +27,7 @@ You can run the app on your local machine using StreamLit and test the web app, 
 ```
 streamlit run car_price_streamlit.py
 ```
+The app is deployed on streamlit.io. Use the following link to explore: [Used Car Price Prediction WebApp](https://fa1zali-used-car-webapp-car-price-streamlit-qqm121.streamlitapp.com/)
 
 ### Files used
 We used the following dataset available on Kaggle to work on this project:
